@@ -1,0 +1,13 @@
+class ScopeVariable  
+{
+    static int a = 10;
+    public static void main(String[] args) 
+    {
+        int a  = 20;
+        // Local variable gets priority over static variable
+        System.err.println("value of a is: "+a);
+
+        // To access static variable we have to use class name
+        System.out.println("value of static variable is: "+ScopeVariable.a);
+    }
+}
