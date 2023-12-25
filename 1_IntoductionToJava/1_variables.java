@@ -16,6 +16,10 @@ class Variables
         System.out.println("value of local variable declared inside main is: "+k);
         System.out.println("value if instanstace variabloe is: "+new Variables().z);
         new Variables().method1();
+
+
+         // static int a = 10; 
+        // static variable cannot be declared inside a method; Illegal modifier for parameter a; only final is permitted
     }
 }
 /*
