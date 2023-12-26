@@ -1,1 +1,26 @@
-
+class dataTypes 
+{
+    public static void main(String[] args) 
+    {
+        byte a = 10;
+        short b = 10000;
+        int c = 100000;
+        int d = -2000;
+        long e = 1000000000000000000L;
+        float f = 10.5f;
+        double g = 10.5;
+        char h = 'A';
+        System.out.println(a + b + c + d + e + f + g + h);
+    }    
+}
+/*
+ * Data Types | Default Value | Default Size
+ * boolean   | false         | 1 bit
+ * char      | '\u0000'      | 2 byte
+ * byte      | 0             | 1 byte
+ * short     | 0             | 2 byte
+ * int       | 0             | 4 byte
+ * long      | 0L            | 8 byte
+ * float     | 0.0f          | 4 byte
+ * double    | 0.0d          | 8 byte
+ */
